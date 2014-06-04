@@ -38,6 +38,7 @@
 /* Begin PBXFileReference section */
 		188EF504193FD56F00A328A2 /* LMABear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABear.h; sourceTree = "<group>"; };
 		188EF505193FD56F00A328A2 /* LMABear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABear.m; sourceTree = "<group>"; };
+		2E47E7BD193FDE1100AA0BF8 /* spellz-HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spellz-HOME.png"; sourceTree = "<group>"; };
 		2E60E008192D7E0B007CD2E2 /* Spellz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E60E00B192D7E0B007CD2E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +89,7 @@
 		2E60DFFF192D7E0B007CD2E2 = {
 			isa = PBXGroup;
 			children = (
+				2E47E7BD193FDE1100AA0BF8 /* spellz-HOME.png */,
 				2E60E011192D7E0B007CD2E2 /* Spellz */,
 				2E60E033192D7E0B007CD2E2 /* SpellzTests */,
 				2E60E00A192D7E0B007CD2E2 /* Frameworks */,
@@ -388,7 +390,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
 				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
@@ -403,7 +404,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
 				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
