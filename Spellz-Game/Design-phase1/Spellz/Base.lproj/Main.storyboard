@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="598" y="159"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Bear - Item-->
         <scene sceneID="3c0-3V-cJS">
             <objects>
-                <viewController id="GbJ-ta-ahP" sceneMemberID="viewController">
+                <viewController id="GbJ-ta-ahP" customClass="LMABear" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TjI-s3-u2i"/>
                         <viewControllerLayoutGuide type="bottom" id="oc9-B3-hrA"/>
