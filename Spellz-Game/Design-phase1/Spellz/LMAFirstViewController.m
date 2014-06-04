@@ -9,6 +9,8 @@
 #import "LMAFirstViewController.h"
 
 @interface LMAFirstViewController ()
+- (IBAction)btnSignUp:(id)sender;
+- (IBAction)btnPlay:(id)sender;
 
 @end
 
@@ -26,4 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnSignUp:(id)sender {
+}
+
+- (IBAction)btnPlay:(id)sender {
+}
 @end

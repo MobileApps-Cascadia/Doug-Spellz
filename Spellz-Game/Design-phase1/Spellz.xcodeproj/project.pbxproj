@@ -386,7 +386,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
 				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,7 +401,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
 				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +467,7 @@
 				2E60E03F192D7E0B007CD2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E60E040192D7E0B007CD2E2 /* Build configuration list for PBXNativeTarget "SpellzTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +476,7 @@
 				2E60E042192D7E0B007CD2E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,10 @@
 #import "LMASecondViewController.h"
 
 @interface LMASecondViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *txtbxName;
+- (IBAction)btnPlay:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *txtbxUserName;
+@property (weak, nonatomic) IBOutlet UITextField *txtbxAge;
 
 @end
 
@@ -26,4 +30,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnPlay:(id)sender {
+}
 @end

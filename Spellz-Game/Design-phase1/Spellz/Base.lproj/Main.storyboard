@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--First View Controller - First-->
@@ -26,6 +26,10 @@
                                 <state key="normal" image="Play-now-new">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnPlay:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="zV3-8J-lk6"/>
+                                    <segue destination="GbJ-ta-ahP" kind="push" id="1Ed-9h-aEr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-dc-IOM">
                                 <rect key="frame" x="78" y="226" width="164" height="49"/>
@@ -33,6 +37,10 @@
                                 <state key="normal" image="sign-up-now">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSignUp:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="3lz-Hf-E9z"/>
+                                    <segue destination="QUy-BD-bpt" kind="push" id="786-Oe-IrR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,9 +49,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="-138"/>
+            <point key="canvasLocation" x="598" y="159"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Item-->
         <scene sceneID="3c0-3V-cJS">
             <objects>
                 <viewController id="GbJ-ta-ahP" sceneMemberID="viewController">
@@ -122,12 +130,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="z3n-AB-305"/>
+                    <navigationItem key="navigationItem" id="TAY-b9-2We"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNa-tk-4Fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="-664"/>
+            <point key="canvasLocation" x="1420" y="165"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Item-->
         <scene sceneID="MWK-a8-VYr">
             <objects>
                 <viewController id="NeY-3e-vGD" sceneMemberID="viewController">
@@ -146,10 +156,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="eJv-Uh-NLQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yiA-SZ-NeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1505" y="-336"/>
+            <point key="canvasLocation" x="1913" y="-300"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
@@ -214,17 +225,27 @@
                                 <state key="normal" image="Play-now-new">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnPlay:" destination="QUy-BD-bpt" eventType="touchUpInside" id="6HL-Ng-jl4"/>
+                                    <segue destination="GbJ-ta-ahP" kind="push" id="6qy-hA-LVm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11051132106008521" green="1" blue="0.21261906654307638" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
+                    <navigationItem key="navigationItem" id="e8N-hY-OcQ"/>
+                    <connections>
+                        <outlet property="txtbxAge" destination="dcx-Fy-BWa" id="Mg2-vQ-fZO"/>
+                        <outlet property="txtbxName" destination="Qq2-9e-Vmc" id="QQk-qp-br8"/>
+                        <outlet property="txtbxUserName" destination="nGi-x1-TPM" id="SaJ-DZ-A7U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="544"/>
+            <point key="canvasLocation" x="945" y="1144"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Item-->
         <scene sceneID="SAp-g2-TcJ">
             <objects>
                 <viewController id="MZH-3F-LdI" sceneMemberID="viewController">
@@ -261,10 +282,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="g66-4Y-aR1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJB-SR-onU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1075" y="849"/>
+            <point key="canvasLocation" x="2459" y="584"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Bl-7n-o1x">
@@ -277,9 +299,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wrb-d9-53j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="1251"/>
+            <point key="canvasLocation" x="2961" y="107"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Item-->
         <scene sceneID="ON3-mZ-kFf">
             <objects>
                 <viewController id="Cf1-OZ-0AD" sceneMemberID="viewController">
@@ -298,12 +320,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="WPO-dr-Mgt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ES8-fe-vl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="520"/>
+            <point key="canvasLocation" x="1929" y="584"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Item-->
         <scene sceneID="93Y-qd-boo">
             <objects>
                 <viewController id="OYc-CM-FQx" sceneMemberID="viewController">
@@ -316,7 +339,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-cat-page-1" translatesAutoresizingMaskIntoConstraints="NO" id="I1j-Fh-BrV">
-                                <rect key="frame" x="-10" y="0.0" width="373" height="619"/>
+                                <rect key="frame" x="-16" y="0.0" width="373" height="619"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQ0-as-IYS">
@@ -340,10 +363,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.073633799054914184" green="1" blue="0.083228641325314046" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="XBa-S0-zfB"/>
+                    <navigationItem key="navigationItem" id="yAY-iN-2Su"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dbg-1o-vF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="104"/>
+            <point key="canvasLocation" x="2508" y="-366"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -357,7 +382,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="CZ4-MO-1fc" kind="relationship" relationship="viewControllers" id="SUk-Ux-ee1"/>
-                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                        <segue destination="OYc-CM-FQx" kind="relationship" relationship="viewControllers" id="gSg-Ba-Ncg"/>
+                        <segue destination="NeY-3e-vGD" kind="relationship" relationship="viewControllers" id="4e2-9f-cSD"/>
+                        <segue destination="Cf1-OZ-0AD" kind="relationship" relationship="viewControllers" id="MT0-e2-Zhg"/>
+                        <segue destination="MZH-3F-LdI" kind="relationship" relationship="viewControllers" id="sEK-vd-Yez"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
@@ -382,4 +410,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="6qy-hA-LVm"/>
+    </inferredMetricsTieBreakers>
 </document>
