@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNa-tk-4Fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1420" y="165"/>
+            <point key="canvasLocation" x="1439" y="126"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="MWK-a8-VYr">
@@ -243,63 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="1144"/>
-        </scene>
-        <!--View Controller - Item-->
-        <scene sceneID="SAp-g2-TcJ">
-            <objects>
-                <viewController id="MZH-3F-LdI" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YVa-PP-70J"/>
-                        <viewControllerLayoutGuide type="bottom" id="N0O-ny-z9v"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Otc-R8-OMC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-dog-page" translatesAutoresizingMaskIntoConstraints="NO" id="VRs-i1-wUv">
-                                <rect key="frame" x="0.0" y="0.0" width="330" height="588"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EVQ-41-1Ec">
-                                <rect key="frame" x="92" y="488" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fec-YA-9se">
-                                <rect key="frame" x="131" y="488" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j9h-Af-0Ci">
-                                <rect key="frame" x="170" y="488" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="g66-4Y-aR1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hJB-SR-onU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2459" y="584"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4Bl-7n-o1x">
-            <objects>
-                <viewController id="03u-4u-ls1" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spellz-background-final" id="6wz-El-tVc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    </imageView>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wrb-d9-53j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2961" y="107"/>
+            <point key="canvasLocation" x="1025" y="998"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="ON3-mZ-kFf">
@@ -324,51 +268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ES8-fe-vl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="584"/>
-        </scene>
-        <!--View Controller - Item-->
-        <scene sceneID="93Y-qd-boo">
-            <objects>
-                <viewController id="OYc-CM-FQx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fTX-iU-OjA"/>
-                        <viewControllerLayoutGuide type="bottom" id="4UR-bX-397"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="f76-Nc-kB0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-cat-page-1" translatesAutoresizingMaskIntoConstraints="NO" id="I1j-Fh-BrV">
-                                <rect key="frame" x="-16" y="0.0" width="373" height="619"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQ0-as-IYS">
-                                <rect key="frame" x="90" y="476" width="25" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oOu-oI-iiC">
-                                <rect key="frame" x="128" y="476" width="23" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xlh-Jd-S2n">
-                                <rect key="frame" x="164" y="476" width="24" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" red="0.073633799054914184" green="1" blue="0.083228641325314046" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="XBa-S0-zfB"/>
-                    <navigationItem key="navigationItem" id="yAY-iN-2Su"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dbg-1o-vF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2508" y="-366"/>
+            <point key="canvasLocation" x="1983" y="630"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -382,10 +282,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="CZ4-MO-1fc" kind="relationship" relationship="viewControllers" id="SUk-Ux-ee1"/>
-                        <segue destination="OYc-CM-FQx" kind="relationship" relationship="viewControllers" id="gSg-Ba-Ncg"/>
                         <segue destination="NeY-3e-vGD" kind="relationship" relationship="viewControllers" id="4e2-9f-cSD"/>
                         <segue destination="Cf1-OZ-0AD" kind="relationship" relationship="viewControllers" id="MT0-e2-Zhg"/>
-                        <segue destination="MZH-3F-LdI" kind="relationship" relationship="viewControllers" id="sEK-vd-Yez"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
@@ -400,8 +298,6 @@
         <image name="sign-up-now" width="107" height="49"/>
         <image name="spellz-HOME" width="240" height="320"/>
         <image name="spellz-background-final" width="273" height="400"/>
-        <image name="spellz-cat-page-1" width="273" height="400"/>
-        <image name="spellz-dog-page" width="273" height="400"/>
         <image name="spellz-success-page" width="240" height="320"/>
         <image name="spellz-teddy-page" width="273" height="400"/>
     </resources>

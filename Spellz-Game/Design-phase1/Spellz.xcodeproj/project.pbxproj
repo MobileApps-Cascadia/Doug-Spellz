@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188EF506193FD56F00A328A2 /* LMABear.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EF505193FD56F00A328A2 /* LMABear.m */; };
 		2E60E00C192D7E0B007CD2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00B192D7E0B007CD2E2 /* Foundation.framework */; };
 		2E60E00E192D7E0B007CD2E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */; };
 		2E60E010192D7E0B007CD2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00F192D7E0B007CD2E2 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188EF504193FD56F00A328A2 /* LMABear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABear.h; sourceTree = "<group>"; };
+		188EF505193FD56F00A328A2 /* LMABear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABear.m; sourceTree = "<group>"; };
 		2E60E008192D7E0B007CD2E2 /* Spellz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E60E00B192D7E0B007CD2E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				2E60E024192D7E0B007CD2E2 /* LMASecondViewController.m */,
 				2E60E026192D7E0B007CD2E2 /* Images.xcassets */,
 				2E60E012192D7E0B007CD2E2 /* Supporting Files */,
+				188EF504193FD56F00A328A2 /* LMABear.h */,
+				188EF505193FD56F00A328A2 /* LMABear.m */,
 			);
 			path = Spellz;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188EF506193FD56F00A328A2 /* LMABear.m in Sources */,
 				2E60E018192D7E0B007CD2E2 /* main.m in Sources */,
 				2E60E025192D7E0B007CD2E2 /* LMASecondViewController.m in Sources */,
 				2E60E01C192D7E0B007CD2E2 /* LMAAppDelegate.m in Sources */,
