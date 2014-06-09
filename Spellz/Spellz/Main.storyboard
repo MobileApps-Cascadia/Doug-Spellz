@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Splash Controller - Home-->
@@ -28,7 +28,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="zV3-8J-lk6"/>
-                                    <segue destination="GbJ-ta-ahP" kind="modal" id="OfQ-WQ-9gT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-dc-IOM">
@@ -39,7 +38,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnSignUp:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="3lz-Hf-E9z"/>
-                                    <segue destination="QUy-BD-bpt" kind="modal" id="FjP-bA-V4j"/>
+                                    <segue destination="QUy-BD-bpt" kind="push" id="786-Oe-IrR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -162,15 +161,6 @@
                                             <action selector="tenthLetter:" destination="GbJ-ta-ahP" eventType="editingDidEnd" id="qcb-di-jad"/>
                                         </connections>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROX-fA-tWp">
-                                        <rect key="frame" x="237" y="518" width="55" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.21516813325025486" blue="0.27304364520683255" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Next">
-                                            <color key="titleColor" red="0.13580840159999999" green="0.1714895005" blue="0.44291355300000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -187,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNa-tk-4Fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1510" y="8"/>
+            <point key="canvasLocation" x="1439" y="126"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="MWK-a8-VYr">
@@ -201,17 +191,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-success-page" translatesAutoresizingMaskIntoConstraints="NO" id="oiv-sN-PiY">
-                                <rect key="frame" x="-12" y="0.0" width="345" height="514"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-success-page" translatesAutoresizingMaskIntoConstraints="NO" id="oiv-sN-PiY">
+                                <rect key="frame" x="-14" y="-62" width="334" height="571"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KET-oE-JgD">
-                                <rect key="frame" x="97" y="350" width="140" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -286,7 +269,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="QUy-BD-bpt" eventType="touchUpInside" id="6HL-Ng-jl4"/>
-                                    <segue destination="GbJ-ta-ahP" kind="modal" id="YUf-ge-0k0"/>
+                                    <segue destination="GbJ-ta-ahP" kind="push" id="6qy-hA-LVm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -302,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="470"/>
+            <point key="canvasLocation" x="1025" y="998"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="ON3-mZ-kFf">
@@ -316,17 +299,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-lost-page" translatesAutoresizingMaskIntoConstraints="NO" id="Ykj-Wg-8uF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spellz-background-final" translatesAutoresizingMaskIntoConstraints="NO" id="Ykj-Wg-8uF">
                                 <rect key="frame" x="0.0" y="-7" width="320" height="575"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8P-QB-hfU">
-                                <rect key="frame" x="107" y="377" width="163" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -362,7 +338,6 @@
         <image name="sign-up-now" width="107" height="49"/>
         <image name="spellz-HOME" width="240" height="320"/>
         <image name="spellz-background-final" width="273" height="400"/>
-        <image name="spellz-lost-page" width="273" height="400"/>
         <image name="spellz-success-page" width="240" height="320"/>
         <image name="spellz-teddy-page" width="273" height="400"/>
     </resources>
@@ -371,11 +346,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-<<<<<<< HEAD
 </document>
-=======
-    <inferredMetricsTieBreakers>
-        <segue reference="YUf-ge-0k0"/>
-    </inferredMetricsTieBreakers>
-</document>
->>>>>>> FETCH_HEAD
