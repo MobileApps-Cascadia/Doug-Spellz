@@ -28,7 +28,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="zV3-8J-lk6"/>
-                                    <segue destination="GbJ-ta-ahP" kind="push" id="1Ed-9h-aEr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-dc-IOM">
@@ -347,7 +346,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="1Ed-9h-aEr"/>
-    </inferredMetricsTieBreakers>
 </document>
