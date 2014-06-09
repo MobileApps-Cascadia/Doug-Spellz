@@ -13,26 +13,9 @@
 @end
 
 @implementation LMABear
-- (IBAction)firstLetter:(id)sender {
+- (IBAction)answer:(id)sender {
 }
-- (IBAction)secondLetter:(id)sender {
-}
-- (IBAction)thirdLetter:(id)sender {
-}
-- (IBAction)fourthLetter:(id)sender {
-}
-- (IBAction)fifthLetter:(id)sender {
-}
-- (IBAction)sixthLetter:(id)sender {
-}
-- (IBAction)seventhLetter:(id)sender {
-}
-- (IBAction)eighthLetter:(id)sender {
-}
-- (IBAction)ninthLetter:(id)sender {
-}
-- (IBAction)tenthLetter:(id)sender {
-}
+
 
 -(IBAction)backgroundTap:(id)sender
 {

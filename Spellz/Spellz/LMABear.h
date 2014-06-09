@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LMABear : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *answer;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 -(IBAction)backgroundTap:(id)sender;
 @end
