@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188EF506193FD56F00A328A2 /* LMABear.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EF505193FD56F00A328A2 /* LMABear.m */; };
+		2E60E00C192D7E0B007CD2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00B192D7E0B007CD2E2 /* Foundation.framework */; };
+		2E60E00E192D7E0B007CD2E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */; };
+		2E60E010192D7E0B007CD2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00F192D7E0B007CD2E2 /* UIKit.framework */; };
+		2E60E016192D7E0B007CD2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E60E014192D7E0B007CD2E2 /* InfoPlist.strings */; };
+		2E60E018192D7E0B007CD2E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E017192D7E0B007CD2E2 /* main.m */; };
+		2E60E01C192D7E0B007CD2E2 /* LMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E01B192D7E0B007CD2E2 /* LMAAppDelegate.m */; };
+		2E60E01F192D7E0B007CD2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E60E01D192D7E0B007CD2E2 /* Main.storyboard */; };
+		2E60E022192D7E0B007CD2E2 /* LMAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E021192D7E0B007CD2E2 /* LMAFirstViewController.m */; };
+		2E60E025192D7E0B007CD2E2 /* LMASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E024192D7E0B007CD2E2 /* LMASecondViewController.m */; };
+		2E60E027192D7E0B007CD2E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E60E026192D7E0B007CD2E2 /* Images.xcassets */; };
+		2E60E02E192D7E0B007CD2E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E02D192D7E0B007CD2E2 /* XCTest.framework */; };
+		2E60E02F192D7E0B007CD2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00B192D7E0B007CD2E2 /* Foundation.framework */; };
+		2E60E030192D7E0B007CD2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E60E00F192D7E0B007CD2E2 /* UIKit.framework */; };
+		2E60E038192D7E0B007CD2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E60E036192D7E0B007CD2E2 /* InfoPlist.strings */; };
+		2E60E03A192D7E0B007CD2E2 /* SpellzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60E039192D7E0B007CD2E2 /* SpellzTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E60E031192D7E0B007CD2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E60E000192D7E0B007CD2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E60E007192D7E0B007CD2E2;
+			remoteInfo = Spellz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188EF504193FD56F00A328A2 /* LMABear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABear.h; sourceTree = "<group>"; };
+		188EF505193FD56F00A328A2 /* LMABear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABear.m; sourceTree = "<group>"; };
+		2E47E7BD193FDE1100AA0BF8 /* spellz-HOME.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spellz-HOME.png"; sourceTree = "<group>"; };
+		2E60E008192D7E0B007CD2E2 /* Spellz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E60E00B192D7E0B007CD2E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E60E00F192D7E0B007CD2E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E60E013192D7E0B007CD2E2 /* Spellz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spellz-Info.plist"; sourceTree = "<group>"; };
+		2E60E015192D7E0B007CD2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E60E017192D7E0B007CD2E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E60E019192D7E0B007CD2E2 /* Spellz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spellz-Prefix.pch"; sourceTree = "<group>"; };
+		2E60E01A192D7E0B007CD2E2 /* LMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAAppDelegate.h; sourceTree = "<group>"; };
+		2E60E01B192D7E0B007CD2E2 /* LMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAAppDelegate.m; sourceTree = "<group>"; };
+		2E60E01E192D7E0B007CD2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E60E020192D7E0B007CD2E2 /* LMAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAFirstViewController.h; sourceTree = "<group>"; };
+		2E60E021192D7E0B007CD2E2 /* LMAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAFirstViewController.m; sourceTree = "<group>"; };
+		2E60E023192D7E0B007CD2E2 /* LMASecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMASecondViewController.h; sourceTree = "<group>"; };
+		2E60E024192D7E0B007CD2E2 /* LMASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMASecondViewController.m; sourceTree = "<group>"; };
+		2E60E026192D7E0B007CD2E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E60E02C192D7E0B007CD2E2 /* SpellzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E60E02D192D7E0B007CD2E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2E60E035192D7E0B007CD2E2 /* SpellzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpellzTests-Info.plist"; sourceTree = "<group>"; };
+		2E60E037192D7E0B007CD2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E60E039192D7E0B007CD2E2 /* SpellzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellzTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E60E005192D7E0B007CD2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60E00E192D7E0B007CD2E2 /* CoreGraphics.framework in Frameworks */,
+				2E60E010192D7E0B007CD2E2 /* UIKit.framework in Frameworks */,
+				2E60E00C192D7E0B007CD2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E60E029192D7E0B007CD2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60E02E192D7E0B007CD2E2 /* XCTest.framework in Frameworks */,
+				2E60E030192D7E0B007CD2E2 /* UIKit.framework in Frameworks */,
+				2E60E02F192D7E0B007CD2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E60DFFF192D7E0B007CD2E2 = {
+			isa = PBXGroup;
+			children = (
+				2E47E7BD193FDE1100AA0BF8 /* spellz-HOME.png */,
+				2E60E011192D7E0B007CD2E2 /* Spellz */,
+				2E60E033192D7E0B007CD2E2 /* SpellzTests */,
+				2E60E00A192D7E0B007CD2E2 /* Frameworks */,
+				2E60E009192D7E0B007CD2E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E60E009192D7E0B007CD2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E008192D7E0B007CD2E2 /* Spellz.app */,
+				2E60E02C192D7E0B007CD2E2 /* SpellzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E60E00A192D7E0B007CD2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E00B192D7E0B007CD2E2 /* Foundation.framework */,
+				2E60E00D192D7E0B007CD2E2 /* CoreGraphics.framework */,
+				2E60E00F192D7E0B007CD2E2 /* UIKit.framework */,
+				2E60E02D192D7E0B007CD2E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E60E011192D7E0B007CD2E2 /* Spellz */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E01A192D7E0B007CD2E2 /* LMAAppDelegate.h */,
+				2E60E01B192D7E0B007CD2E2 /* LMAAppDelegate.m */,
+				2E60E01D192D7E0B007CD2E2 /* Main.storyboard */,
+				2E60E020192D7E0B007CD2E2 /* LMAFirstViewController.h */,
+				2E60E021192D7E0B007CD2E2 /* LMAFirstViewController.m */,
+				2E60E023192D7E0B007CD2E2 /* LMASecondViewController.h */,
+				2E60E024192D7E0B007CD2E2 /* LMASecondViewController.m */,
+				2E60E026192D7E0B007CD2E2 /* Images.xcassets */,
+				2E60E012192D7E0B007CD2E2 /* Supporting Files */,
+				188EF504193FD56F00A328A2 /* LMABear.h */,
+				188EF505193FD56F00A328A2 /* LMABear.m */,
+			);
+			path = Spellz;
+			sourceTree = "<group>";
+		};
+		2E60E012192D7E0B007CD2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E013192D7E0B007CD2E2 /* Spellz-Info.plist */,
+				2E60E014192D7E0B007CD2E2 /* InfoPlist.strings */,
+				2E60E017192D7E0B007CD2E2 /* main.m */,
+				2E60E019192D7E0B007CD2E2 /* Spellz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E60E033192D7E0B007CD2E2 /* SpellzTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E039192D7E0B007CD2E2 /* SpellzTests.m */,
+				2E60E034192D7E0B007CD2E2 /* Supporting Files */,
+			);
+			path = SpellzTests;
+			sourceTree = "<group>";
+		};
+		2E60E034192D7E0B007CD2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E60E035192D7E0B007CD2E2 /* SpellzTests-Info.plist */,
+				2E60E036192D7E0B007CD2E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E60E007192D7E0B007CD2E2 /* Spellz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E60E03D192D7E0B007CD2E2 /* Build configuration list for PBXNativeTarget "Spellz" */;
+			buildPhases = (
+				2E60E004192D7E0B007CD2E2 /* Sources */,
+				2E60E005192D7E0B007CD2E2 /* Frameworks */,
+				2E60E006192D7E0B007CD2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spellz;
+			productName = Spellz;
+			productReference = 2E60E008192D7E0B007CD2E2 /* Spellz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E60E02B192D7E0B007CD2E2 /* SpellzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E60E040192D7E0B007CD2E2 /* Build configuration list for PBXNativeTarget "SpellzTests" */;
+			buildPhases = (
+				2E60E028192D7E0B007CD2E2 /* Sources */,
+				2E60E029192D7E0B007CD2E2 /* Frameworks */,
+				2E60E02A192D7E0B007CD2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E60E032192D7E0B007CD2E2 /* PBXTargetDependency */,
+			);
+			name = SpellzTests;
+			productName = SpellzTests;
+			productReference = 2E60E02C192D7E0B007CD2E2 /* SpellzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E60E000192D7E0B007CD2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Doug Anderson Inc.";
+				TargetAttributes = {
+					2E60E02B192D7E0B007CD2E2 = {
+						TestTargetID = 2E60E007192D7E0B007CD2E2;
+					};
+				};
+			};
+			buildConfigurationList = 2E60E003192D7E0B007CD2E2 /* Build configuration list for PBXProject "Spellz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E60DFFF192D7E0B007CD2E2;
+			productRefGroup = 2E60E009192D7E0B007CD2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E60E007192D7E0B007CD2E2 /* Spellz */,
+				2E60E02B192D7E0B007CD2E2 /* SpellzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E60E006192D7E0B007CD2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60E027192D7E0B007CD2E2 /* Images.xcassets in Resources */,
+				2E60E016192D7E0B007CD2E2 /* InfoPlist.strings in Resources */,
+				2E60E01F192D7E0B007CD2E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E60E02A192D7E0B007CD2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60E038192D7E0B007CD2E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E60E004192D7E0B007CD2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EF506193FD56F00A328A2 /* LMABear.m in Sources */,
+				2E60E018192D7E0B007CD2E2 /* main.m in Sources */,
+				2E60E025192D7E0B007CD2E2 /* LMASecondViewController.m in Sources */,
+				2E60E01C192D7E0B007CD2E2 /* LMAAppDelegate.m in Sources */,
+				2E60E022192D7E0B007CD2E2 /* LMAFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E60E028192D7E0B007CD2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E60E03A192D7E0B007CD2E2 /* SpellzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E60E032192D7E0B007CD2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E60E007192D7E0B007CD2E2 /* Spellz */;
+			targetProxy = 2E60E031192D7E0B007CD2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E60E014192D7E0B007CD2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E60E015192D7E0B007CD2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E60E01D192D7E0B007CD2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E60E01E192D7E0B007CD2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E60E036192D7E0B007CD2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E60E037192D7E0B007CD2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E60E03B192D7E0B007CD2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E60E03C192D7E0B007CD2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E60E03E192D7E0B007CD2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
+				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E60E03F192D7E0B007CD2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
+				INFOPLIST_FILE = "Spellz/Spellz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2E60E041192D7E0B007CD2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spellz.app/Spellz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpellzTests/SpellzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2E60E042192D7E0B007CD2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spellz.app/Spellz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellz/Spellz-Prefix.pch";
+				INFOPLIST_FILE = "SpellzTests/SpellzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E60E003192D7E0B007CD2E2 /* Build configuration list for PBXProject "Spellz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E60E03B192D7E0B007CD2E2 /* Debug */,
+				2E60E03C192D7E0B007CD2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E60E03D192D7E0B007CD2E2 /* Build configuration list for PBXNativeTarget "Spellz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E60E03E192D7E0B007CD2E2 /* Debug */,
+				2E60E03F192D7E0B007CD2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E60E040192D7E0B007CD2E2 /* Build configuration list for PBXNativeTarget "SpellzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E60E041192D7E0B007CD2E2 /* Debug */,
+				2E60E042192D7E0B007CD2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E60E000192D7E0B007CD2E2 /* Project object */;
+}
