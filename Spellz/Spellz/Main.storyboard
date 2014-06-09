@@ -28,6 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="zV3-8J-lk6"/>
+                                    <segue destination="GbJ-ta-ahP" kind="modal" id="OfQ-WQ-9gT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-dc-IOM">
@@ -38,7 +39,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnSignUp:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="3lz-Hf-E9z"/>
-                                    <segue destination="QUy-BD-bpt" kind="push" id="786-Oe-IrR"/>
+                                    <segue destination="QUy-BD-bpt" kind="modal" id="FjP-bA-V4j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -177,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNa-tk-4Fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1439" y="126"/>
+            <point key="canvasLocation" x="1510" y="8"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="MWK-a8-VYr">
@@ -269,7 +270,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="QUy-BD-bpt" eventType="touchUpInside" id="6HL-Ng-jl4"/>
-                                    <segue destination="GbJ-ta-ahP" kind="push" id="6qy-hA-LVm"/>
+                                    <segue destination="GbJ-ta-ahP" kind="modal" id="YUf-ge-0k0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -285,7 +286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1025" y="998"/>
+            <point key="canvasLocation" x="1080" y="470"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="ON3-mZ-kFf">
@@ -346,4 +347,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="YUf-ge-0k0"/>
+    </inferredMetricsTieBreakers>
 </document>
