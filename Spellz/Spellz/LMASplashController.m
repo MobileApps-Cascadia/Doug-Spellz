@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Doug Anderson Inc. All rights reserved.
 //
 
-#import "LMAFirstViewController.h"
+#import "LMASplashController.h"
 
-@interface LMAFirstViewController ()
+@interface LMASplashController ()
 - (IBAction)btnSignUp:(id)sender;
 - (IBAction)btnPlay:(id)sender;
 
 @end
 
-@implementation LMAFirstViewController
+@implementation LMASplashController
 
 - (void)viewDidLoad
 {

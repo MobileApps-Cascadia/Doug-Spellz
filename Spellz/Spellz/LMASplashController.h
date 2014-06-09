@@ -1,5 +1,5 @@
 //
-//  LMASecondViewController.h
+//  LMAFirstViewController.h
 //  Spellz
 //
 //  Created by Doug Anderson on 5/21/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMASecondViewController : UIViewController
+@interface LMASplashController : UIViewController
 
 @end

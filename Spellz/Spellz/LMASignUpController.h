@@ -1,5 +1,5 @@
 //
-//  LMAFirstViewController.h
+//  LMASecondViewController.h
 //  Spellz
 //
 //  Created by Doug Anderson on 5/21/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LMAFirstViewController : UIViewController
+@interface LMASignUpController : UIViewController
 
 @end

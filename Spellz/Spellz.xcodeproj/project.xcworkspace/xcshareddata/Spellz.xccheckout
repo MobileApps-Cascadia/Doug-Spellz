@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A73609F1-80A2-47B1-BB88-277749C092FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Spellz</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1D08ABF-BED3-41B3-8B68-4EAD919517CF</key>
+		<string>https://github.com/MobileApps-Cascadia/Doug-Spellz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Spellz/Spellz.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1D08ABF-BED3-41B3-8B68-4EAD919517CF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MobileApps-Cascadia/Doug-Spellz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1D08ABF-BED3-41B3-8B68-4EAD919517CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1D08ABF-BED3-41B3-8B68-4EAD919517CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Doug-Spellz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

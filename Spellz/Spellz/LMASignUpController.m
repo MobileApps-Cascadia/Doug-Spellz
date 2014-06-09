@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Doug Anderson Inc. All rights reserved.
 //
 
-#import "LMASecondViewController.h"
+#import "LMASignUpController.h"
 
-@interface LMASecondViewController ()
+@interface LMASignUpController ()
 @property (weak, nonatomic) IBOutlet UITextField *txtbxName;
 - (IBAction)btnPlay:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *txtbxUserName;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation LMASecondViewController
+@implementation LMASignUpController
 
 - (void)viewDidLoad
 {

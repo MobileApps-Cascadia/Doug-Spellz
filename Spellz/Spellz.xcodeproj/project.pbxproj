@@ -22,8 +22,8 @@
 		18C24C2B19465D0A006ACEB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C24C2919465D0A006ACEB2 /* InfoPlist.strings */; };
 		18C24C2D19465D0A006ACEB2 /* SpellzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C2C19465D0A006ACEB2 /* SpellzTests.m */; };
 		18C24C3C19465D40006ACEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C24C3619465D40006ACEB2 /* Main.storyboard */; };
-		18C24C3D19465D40006ACEB2 /* LMAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C3819465D40006ACEB2 /* LMAFirstViewController.m */; };
-		18C24C3E19465D40006ACEB2 /* LMASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C3A19465D40006ACEB2 /* LMASecondViewController.m */; };
+		18C24C3D19465D40006ACEB2 /* LMASplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C3819465D40006ACEB2 /* LMASplashController.m */; };
+		18C24C3E19465D40006ACEB2 /* LMASignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C3A19465D40006ACEB2 /* LMASignUpController.m */; };
 		18C24C3F19465D40006ACEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C24C3B19465D40006ACEB2 /* Images.xcassets */; };
 		18C24C4219465D49006ACEB2 /* LMABear.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C4119465D49006ACEB2 /* LMABear.m */; };
 /* End PBXBuildFile section */
@@ -57,10 +57,10 @@
 		18C24C2A19465D0A006ACEB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18C24C2C19465D0A006ACEB2 /* SpellzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpellzTests.m; sourceTree = "<group>"; };
 		18C24C3619465D40006ACEB2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		18C24C3719465D40006ACEB2 /* LMAFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAFirstViewController.h; sourceTree = "<group>"; };
-		18C24C3819465D40006ACEB2 /* LMAFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAFirstViewController.m; sourceTree = "<group>"; };
-		18C24C3919465D40006ACEB2 /* LMASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASecondViewController.h; sourceTree = "<group>"; };
-		18C24C3A19465D40006ACEB2 /* LMASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASecondViewController.m; sourceTree = "<group>"; };
+		18C24C3719465D40006ACEB2 /* LMASplashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASplashController.h; sourceTree = "<group>"; };
+		18C24C3819465D40006ACEB2 /* LMASplashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASplashController.m; sourceTree = "<group>"; };
+		18C24C3919465D40006ACEB2 /* LMASignUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMASignUpController.h; sourceTree = "<group>"; };
+		18C24C3A19465D40006ACEB2 /* LMASignUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMASignUpController.m; sourceTree = "<group>"; };
 		18C24C3B19465D40006ACEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18C24C4019465D49006ACEB2 /* LMABear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABear.h; sourceTree = "<group>"; };
 		18C24C4119465D49006ACEB2 /* LMABear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABear.m; sourceTree = "<group>"; };
@@ -129,10 +129,10 @@
 				18C24C1219465D0A006ACEB2 /* LMAAppDelegate.h */,
 				18C24C1319465D0A006ACEB2 /* LMAAppDelegate.m */,
 				18C24C3619465D40006ACEB2 /* Main.storyboard */,
-				18C24C3719465D40006ACEB2 /* LMAFirstViewController.h */,
-				18C24C3819465D40006ACEB2 /* LMAFirstViewController.m */,
-				18C24C3919465D40006ACEB2 /* LMASecondViewController.h */,
-				18C24C3A19465D40006ACEB2 /* LMASecondViewController.m */,
+				18C24C3719465D40006ACEB2 /* LMASplashController.h */,
+				18C24C3819465D40006ACEB2 /* LMASplashController.m */,
+				18C24C3919465D40006ACEB2 /* LMASignUpController.h */,
+				18C24C3A19465D40006ACEB2 /* LMASignUpController.m */,
 				18C24C3B19465D40006ACEB2 /* Images.xcassets */,
 				18C24C1519465D0A006ACEB2 /* Spellz.xcdatamodeld */,
 				18C24C0A19465D0A006ACEB2 /* Supporting Files */,
@@ -268,12 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C24C3D19465D40006ACEB2 /* LMAFirstViewController.m in Sources */,
+				18C24C3D19465D40006ACEB2 /* LMASplashController.m in Sources */,
 				18C24C1019465D0A006ACEB2 /* main.m in Sources */,
 				18C24C1419465D0A006ACEB2 /* LMAAppDelegate.m in Sources */,
 				18C24C1719465D0A006ACEB2 /* Spellz.xcdatamodeld in Sources */,
 				18C24C4219465D49006ACEB2 /* LMABear.m in Sources */,
-				18C24C3E19465D40006ACEB2 /* LMASecondViewController.m in Sources */,
+				18C24C3E19465D40006ACEB2 /* LMASignUpController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

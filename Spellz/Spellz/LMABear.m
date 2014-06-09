@@ -34,6 +34,13 @@
 - (IBAction)tenthLetter:(id)sender {
 }
 
+-(IBAction)backgroundTap:(id)sender
+{
+    [self.view endEditing:YES];
+}
+
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -47,6 +54,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    _scrollView.contentSize = CGSizeMake(320,500);
+}
+
+-(void) viewDidLayoutSubviews
+{
+    _scrollView.contentSize = CGSizeMake(320, 500);
 }
 
 - (void)didReceiveMemoryWarning
