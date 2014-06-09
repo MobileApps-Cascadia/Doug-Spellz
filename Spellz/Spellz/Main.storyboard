@@ -76,7 +76,7 @@
                                         <rect key="frame" x="31" y="475" width="298" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
                                         <connections>
                                             <action selector="answer:" destination="GbJ-ta-ahP" eventType="editingDidEnd" id="YjW-Hn-vXO"/>
                                         </connections>
@@ -251,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ES8-fe-vl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="718"/>
+            <point key="canvasLocation" x="1953" y="644"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -289,6 +289,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="o49-sL-twK"/>
+        <segue reference="vEV-Fg-fVI"/>
     </inferredMetricsTieBreakers>
 </document>
