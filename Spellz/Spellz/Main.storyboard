@@ -28,6 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="zV3-8J-lk6"/>
+                                    <segue destination="GbJ-ta-ahP" kind="modal" id="pcu-it-3ha"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gM-dc-IOM">
@@ -38,7 +39,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnSignUp:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="3lz-Hf-E9z"/>
-                                    <segue destination="QUy-BD-bpt" kind="push" id="786-Oe-IrR"/>
+                                    <segue destination="QUy-BD-bpt" kind="modal" id="zfg-Fe-bcz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -269,7 +270,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="QUy-BD-bpt" eventType="touchUpInside" id="6HL-Ng-jl4"/>
-                                    <segue destination="GbJ-ta-ahP" kind="push" id="6qy-hA-LVm"/>
+                                    <segue destination="GbJ-ta-ahP" kind="modal" id="t2j-7u-SOw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -346,4 +347,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="t2j-7u-SOw"/>
+    </inferredMetricsTieBreakers>
 </document>
