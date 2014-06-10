@@ -81,6 +81,13 @@
                                             <action selector="answer:" destination="GbJ-ta-ahP" eventType="editingDidEnd" id="YjW-Hn-vXO"/>
                                         </connections>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiP-R2-NGa">
+                                        <rect key="frame" x="78" y="513" width="205" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="lets-check">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -98,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNa-tk-4Fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1439" y="126"/>
+            <point key="canvasLocation" x="1303" y="41"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="MWK-a8-VYr">
@@ -123,17 +130,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GbJ-ta-ahP" kind="modal" id="o49-sL-twK"/>
+                                    <segue destination="GbJ-ta-ahP" kind="modal" id="eqc-NG-wnN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="eJv-Uh-NLQ"/>
+                    <navigationItem key="navigationItem" id="3Kg-BS-E4f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yiA-SZ-NeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1915" y="-98"/>
+            <point key="canvasLocation" x="1972" y="-269"/>
         </scene>
         <!--Sign Up Controller - Sign up-->
         <scene sceneID="ot8-2e-RuS">
@@ -248,10 +256,11 @@
                         <color key="backgroundColor" red="0.073633799050000004" green="1" blue="0.083228641330000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="WPO-dr-Mgt"/>
+                    <navigationItem key="navigationItem" id="Ce3-YH-Lh5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ES8-fe-vl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1953" y="644"/>
+            <point key="canvasLocation" x="1953" y="607"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
@@ -275,6 +284,7 @@
     <resources>
         <image name="Play-now-new" width="107" height="49"/>
         <image name="home-2-30x30" width="30" height="30"/>
+        <image name="lets-check" width="150" height="60"/>
         <image name="second" width="30" height="30"/>
         <image name="sign-up-now" width="107" height="49"/>
         <image name="spellz-HOME" width="240" height="320"/>
@@ -289,6 +299,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="vEV-Fg-fVI"/>
+        <segue reference="eqc-NG-wnN"/>
     </inferredMetricsTieBreakers>
 </document>
