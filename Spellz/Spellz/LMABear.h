@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+extern NSString *const kCorrectAnswer;
 
 @interface LMABear : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *answer;

@@ -7,6 +7,7 @@
 //
 
 #import "LMABear.h"
+NSString *const kCorrectAnswer = @"teddybear";
 
 @interface LMABear ()
 
@@ -14,6 +15,12 @@
 
 @implementation LMABear
 - (IBAction)answer:(id)sender {
+    NSString *myAnswer = _answer.text;
+    myAnswer = myAnswer.lowercaseString;
+    [myAnswer stringByReplacingOccurrencesOfString:@" " withString:@""];
+    if ([myAnswer isEqualToString:kCorrectAnswer]) {
+        
+    }
 }
 
 
