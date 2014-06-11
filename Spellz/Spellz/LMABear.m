@@ -16,13 +16,7 @@ NSString *const kCorrectAnswer = @"teddybear";
 
 @implementation LMABear
 - (IBAction)answer:(id)sender {
-    NSString *myAnswer = _answer.text;
-    myAnswer = myAnswer.lowercaseString;
-    [myAnswer stringByReplacingOccurrencesOfString:@" " withString:@""];
-    if ([myAnswer isEqualToString:kCorrectAnswer]) {
-        
     }
-}
 
 
 -(IBAction)backgroundTap:(id)sender
@@ -63,5 +57,17 @@ NSString *const kCorrectAnswer = @"teddybear";
         LMAAnswer *answerDelegate = segue.destinationViewController;
         answerDelegate.delegate = self;
     }
+}
+-(BOOL)testAnswer
+{
+    NSString *myAnswer = _answer.text;
+    myAnswer = myAnswer.lowercaseString;
+    [myAnswer stringByReplacingOccurrencesOfString:@" " withString:@""];
+    if ([myAnswer isEqualToString:kCorrectAnswer]) {
+        return true;
+    }
+    
+    else return false;
+
 }
 @end

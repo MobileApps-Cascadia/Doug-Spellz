@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1415" y="45"/>
         </scene>
-        <!--Answer - Item-->
+        <!--Answer - LMAAnswer-->
         <scene sceneID="MWK-a8-VYr">
             <objects>
-                <viewController id="NeY-3e-vGD" customClass="LMAAnswer" sceneMemberID="viewController">
+                <viewController title="LMAAnswer" id="NeY-3e-vGD" customClass="LMAAnswer" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eX8-2m-ZHE"/>
                         <viewControllerLayoutGuide type="bottom" id="erd-5i-S41"/>

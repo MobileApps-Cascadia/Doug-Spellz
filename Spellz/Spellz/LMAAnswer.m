@@ -27,6 +27,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    bool answer = [_delegate testAnswer];
+ /*   if(answer) {
+        LMAAnswer.set ([[UIImage imageNamed: @"spellz-success-page.png"]]);
+        UIImage *image = [UIImage imageNamed:@"spellz-success-page.png"];
+        [UIImage setImage:image];}
+    else {
+        UIImage([[UIImage imageNamed: @"spellz-lost-page.png"]]);
+    }
+   */
     
 }
 

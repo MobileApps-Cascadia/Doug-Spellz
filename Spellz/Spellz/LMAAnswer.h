@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @protocol LMAAnswerDelegate <NSObject>
+-(BOOL) testAnswer;
 @end
+
 @interface LMAAnswer : UIViewController
 @property (strong, nonatomic) id<LMAAnswerDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UIButton *btnNext;
