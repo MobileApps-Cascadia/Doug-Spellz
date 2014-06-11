@@ -10,7 +10,7 @@
 #import "LMAAnswer.h"
 NSString *const kCorrectAnswer = @"teddybear";
 
-@interface LMABear () <LMABearControllerDelegate>
+@interface LMABear () <LMAAnswerDelegate>
 
 @end
 
@@ -60,8 +60,8 @@ NSString *const kCorrectAnswer = @"teddybear";
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([segue.identifier isEqualToString:@"segueAnswerPage"]) {
-        LMAAnswer *answer = segue.destinationViewController;
-        answer.delegate = self;
+        LMAAnswer *answerDelegate = segue.destinationViewController;
+        answerDelegate.delegate = self;
     }
 }
 @end

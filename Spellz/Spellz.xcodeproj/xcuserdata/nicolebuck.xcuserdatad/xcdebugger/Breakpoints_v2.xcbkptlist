@@ -47,7 +47,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
             endingLineNumber = "13"
-            landmarkName = "@protocol LMABearControllerDelegate"
+            landmarkName = "@interface LMAAnswer"
             landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>

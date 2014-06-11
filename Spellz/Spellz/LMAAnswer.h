@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol LMABearControllerDelegate <NSObject>
+@protocol LMAAnswerDelegate <NSObject>
 @end
 @interface LMAAnswer : UIViewController
+@property (strong, nonatomic) id<LMAAnswerDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UIButton *btnNext;
 
 @end
