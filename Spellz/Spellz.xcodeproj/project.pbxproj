@@ -27,6 +27,7 @@
 		18C24C3E19465D40006ACEB2 /* LMASignUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C3A19465D40006ACEB2 /* LMASignUpController.m */; };
 		18C24C3F19465D40006ACEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C24C3B19465D40006ACEB2 /* Images.xcassets */; };
 		18C24C4219465D49006ACEB2 /* LMABear.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C24C4119465D49006ACEB2 /* LMABear.m */; };
+		18E6C0BD19480AE600ED9EE4 /* LMAAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6C0BC19480AE600ED9EE4 /* LMAAnswer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		18C24C3B19465D40006ACEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18C24C4019465D49006ACEB2 /* LMABear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMABear.h; sourceTree = "<group>"; };
 		18C24C4119465D49006ACEB2 /* LMABear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMABear.m; sourceTree = "<group>"; };
+		18E6C0BB19480AE600ED9EE4 /* LMAAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAAnswer.h; sourceTree = "<group>"; };
+		18E6C0BC19480AE600ED9EE4 /* LMAAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAAnswer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				18C24C0C19465D0A006ACEB2 /* InfoPlist.strings */,
 				18C24C0F19465D0A006ACEB2 /* main.m */,
 				18C24C1119465D0A006ACEB2 /* Spellz-Prefix.pch */,
+				18E6C0BB19480AE600ED9EE4 /* LMAAnswer.h */,
+				18E6C0BC19480AE600ED9EE4 /* LMAAnswer.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E6C0BD19480AE600ED9EE4 /* LMAAnswer.m in Sources */,
 				18C24C3D19465D40006ACEB2 /* LMASplashController.m in Sources */,
 				18C24C1019465D0A006ACEB2 /* main.m in Sources */,
 				18C24C1419465D0A006ACEB2 /* LMAAppDelegate.m in Sources */,

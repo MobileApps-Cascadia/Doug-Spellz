@@ -88,7 +88,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="NeY-3e-vGD" kind="modal" id="LmC-7l-7y9"/>
+                                            <segue destination="NeY-3e-vGD" kind="modal" identifier="segueAnswerPage" id="LmC-7l-7y9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1415" y="45"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--Answer - Item-->
         <scene sceneID="MWK-a8-VYr">
             <objects>
-                <viewController id="NeY-3e-vGD" sceneMemberID="viewController">
+                <viewController id="NeY-3e-vGD" customClass="LMAAnswer" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eX8-2m-ZHE"/>
                         <viewControllerLayoutGuide type="bottom" id="erd-5i-S41"/>
@@ -127,7 +127,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sf-E4-uhS">
-                                <rect key="frame" x="85" y="360" width="165" height="188"/>
+                                <rect key="frame" x="88" y="360" width="162" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -141,10 +141,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="eJv-Uh-NLQ"/>
                     <navigationItem key="navigationItem" id="3Kg-BS-E4f"/>
+                    <connections>
+                        <outlet property="btnNext" destination="0sf-E4-uhS" id="YQx-EY-rOy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yiA-SZ-NeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="-237"/>
+            <point key="canvasLocation" x="2010" y="-237"/>
         </scene>
         <!--Sign Up Controller - Sign up-->
         <scene sceneID="ot8-2e-RuS">
@@ -246,7 +249,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Dm-gk-CTB">
-                                <rect key="frame" x="124" y="356" width="176" height="80"/>
+                                <rect key="frame" x="124" y="354" width="176" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

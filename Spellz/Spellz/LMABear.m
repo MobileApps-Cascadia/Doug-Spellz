@@ -7,9 +7,10 @@
 //
 
 #import "LMABear.h"
+#import "LMAAnswer.h"
 NSString *const kCorrectAnswer = @"teddybear";
 
-@interface LMABear ()
+@interface LMABear () <LMABearControllerDelegate>
 
 @end
 
@@ -57,5 +58,10 @@ NSString *const kCorrectAnswer = @"teddybear";
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if([segue.identifier isEqualToString:@"segueAnswerPage"]) {
+        LMAAnswer *answer = segue.destinationViewController;
+        answer.delegate = self;
+    }
+}
 @end
